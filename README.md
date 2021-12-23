@@ -17,3 +17,9 @@ Virtualization, however, has three significant drawbacks:
  ![image](https://user-images.githubusercontent.com/82499575/145830063-41470365-479b-4453-af65-6982e19759c3.png)
 
 Each application is delivered together with its dependencies, but, without the operating system. Applications interface directly with the host operating system, so there is no additional layer of the guest operating system. It results in better performance and no waste of resources.
+
+# Continious Integration / Continious Delivery with Docker
+
+The Developer's inner loop and outer loop shown below. To this, we want the inner loop and the outer loop to be mirrored as much as possible.
+
+![image](https://user-images.githubusercontent.com/82499575/147209690-349fb938-7daf-4dce-a736-accb37a4aed3.png)
