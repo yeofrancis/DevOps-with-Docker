@@ -28,3 +28,8 @@ The Developer's inner loop and outer loop shown below. To this, we want the inne
 ```
 docker container run nginx:alpine
 ```
+#### Publish the container
+run in the background and publishes port 80 inside the container to port 80 on the host
+```
+$ docker container run --detach --publish 80:80 nginx:alpine
+```
