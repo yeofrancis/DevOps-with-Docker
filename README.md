@@ -23,3 +23,8 @@ Each application is delivered together with its dependencies, but, without the o
 The Developer's inner loop and outer loop shown below. To this, we want the inner loop and the outer loop to be mirrored as much as possible.
 
 ![image](https://user-images.githubusercontent.com/82499575/147209690-349fb938-7daf-4dce-a736-accb37a4aed3.png)
+
+#### Running Docker Container 
+```
+docker container run nginx:alpine
+```
