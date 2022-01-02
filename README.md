@@ -33,3 +33,7 @@ run in the background and publishes port 80 inside the container to port 80 on t
 ```
 $ docker container run --detach --publish 80:80 nginx:alpine
 ```
+browse to  browse to  browse to http://localhost and see the Nginx welcome page
+ 
+![image](https://user-images.githubusercontent.com/82499575/147880608-7255e51b-5e9b-458f-ace5-752742c59563.png)
+
